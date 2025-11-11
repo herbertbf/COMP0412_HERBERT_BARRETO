@@ -26,6 +26,7 @@ void insertion(int *A, int n) {
      }
 }
 
+
 // --- 2. Mergesort ---
 // Implementação recursiva do mergesort em um único vetor A de tamanho n.
 void mergesort2(int *A, int n) {
@@ -82,8 +83,12 @@ void mergesort2(int *A, int n) {
     free(B);
 }
 
+
+
+
 // --- 3. Quicksort ---
-// Comentários explicam ideia geral e cada passo de forma direta e sem muitos detalhes teóricos.
+
+
 
 // Função auxiliar para trocar dois inteiros apontados por ponteiros.
 void trocar(int* a, int* b) {
